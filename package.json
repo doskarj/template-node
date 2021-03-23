@@ -4,7 +4,7 @@
   "description": "A template node projects with nodemon, babel and debugger config.",
   "main": "src/server.js",
   "scripts": {
-    "start": "nodemon --inspect babel-node src/server.js"
+    "start": "nodemon babel-node src/server.js"
   },
   "author": "Josef Doskar <doskar.jd@gmail.com>",
   "license": "ISC",
@@ -14,6 +14,7 @@
     "@babel/core": "^7.13.10",
     "@babel/node": "^7.13.12",
     "@babel/preset-env": "^7.13.12",
+    "@babel/register": "^7.13.8",
     "nodemon": "^2.0.7"
   }
 }
